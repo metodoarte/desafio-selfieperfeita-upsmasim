@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Obrigado — Método ARTE</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230f0f0f'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Montserrat%2C sans-serif' font-size='13' font-weight='700' fill='%23f0ece4' letter-spacing='0.5'%3EMA%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0f0f0f;--bg2:#161616;--bg3:#1e1e1e;--bg4:#252525;
+  --gold:#c9a96e;--gold2:#e8d5b0;
+  --gold-dim:rgba(201,169,110,0.15);--gold-dim2:rgba(201,169,110,0.08);
+  --orange:#f5a623;--white:#f0ece4;--muted:#9a9088;
+  --border:rgba(201,169,110,0.12);--border2:rgba(255,255,255,0.07);
+  --green:#24b36b;--red:#c0392b;--f:'Montserrat',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--white);font-family:var(--f);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 24px}
+nav{display:flex;align-items:center;justify-content:center;padding:18px 24px;background:rgba(15,15,15,0.95);border-bottom:1px solid var(--border);}
+.nav-bold{font-weight:700;font-size:20px;color:#f0ece4;}
+.nav-light{font-weight:200;font-size:20px;color:#f0ece4;letter-spacing:3px;}
+.hero{min-height:88vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:80px 24px;border-bottom:1px solid var(--border);}
+.badge{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#fff;background:var(--green);padding:8px 18px;border-radius:3px;margin-bottom:34px;}
+h1{font-size:clamp(36px,6.2vw,66px);font-weight:800;line-height:1.05;letter-spacing:-2px;color:var(--white);margin-bottom:24px;}
+h1 em{font-style:italic;font-weight:300;color:var(--gold)}
+.sub{font-size:clamp(15px,2vw,18px);font-weight:300;line-height:1.8;color:var(--muted);max-width:620px;margin:0 auto 34px;}
+.card{background:var(--bg4);border:1px solid rgba(201,169,110,0.2);border-radius:8px;padding:34px 30px;max-width:620px;margin:0 auto 28px;text-align:left;}
+.card-title{font-size:14px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:18px;text-align:center}
+.step{display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-top:1px solid var(--border2);}
+.step:first-of-type{border-top:none}
+.num{width:28px;height:28px;border-radius:50%;background:var(--gold-dim);color:var(--gold);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;flex-shrink:0}
+.step p{font-size:14px;font-weight:300;line-height:1.65;color:rgba(240,236,228,.72)}
+.step strong{font-weight:600;color:var(--white)}
+.btn-gold{display:inline-block;font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#0f0f0f;background:var(--orange);padding:20px 42px;border-radius:4px;transition:opacity .2s,transform .15s;width:100%;max-width:460px;text-align:center;}
+.btn-gold:hover{opacity:.85;transform:translateY(-1px)}
+.note{font-size:12px;font-weight:300;color:rgba(240,236,228,.35);margin-top:14px;line-height:1.6}
+footer{padding:28px 24px;text-align:center;border-top:1px solid var(--border);}
+footer p{font-size:11px;font-weight:300;color:rgba(240,236,228,.2);letter-spacing:.5px}
+@media(max-width:640px){
+  .hero{min-height:auto;padding:64px 20px}
+  .card{padding:28px 22px}
+  h1{letter-spacing:-1px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nav-bold">Método</span>&nbsp;<span class="nav-light">ARTE</span>
+</nav>
+
+<main class="hero">
+  <div class="wrap">
+    <span class="badge">Compra confirmada</span>
+    <h1>Você agora também faz parte<br>do <em>Método ARTE</em></h1>
+    <p class="sub">Sua compra foi confirmada. Além do Desafio da Selfie Perfeita, você também terá acesso ao curso completo de fotografia com celular.</p>
+
+    <div class="card">
+      <p class="card-title">Próximos passos</p>
+        <div class="step"><div class="num">1</div><p>Acesse sua <strong>área de membros da Hotmart</strong> com o mesmo e-mail usado na compra.</p></div>
+        <div class="step"><div class="num">2</div><p>Procure pelo produto <strong>Método ARTE</strong> e comece a assistir as aulas.</p></div>
+        <div class="step"><div class="num">3</div><p>Siga a sequência dos módulos para um melhor aproveitamento.</p></div>
+    </div>
+
+    <a class="btn-gold" href="https://consumer.hotmart.com/">Acessar meus cursos</a>
+    <p class="note">Os dados de acesso também são enviados automaticamente para o e-mail usado na compra. Verifique caixa de entrada, spam e promoções.</p>
+  </div>
+</main>
+
+<footer><p>© 2025 Método ARTE · Todos os direitos reservados</p></footer>
+</body>
+</html>
